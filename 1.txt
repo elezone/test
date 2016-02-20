@@ -1,0 +1,27 @@
+﻿Windows PowerShell
+版权所有 (C) 2009 Microsoft Corporation。保留所有权利。
+
+E:\Git\test [master +0 ~1 -0]>
+E:\Git\test [master]>
+E:\Git\test [master]> git config --global url.https://github.com/.insteadOf ssh:
+//git@github.com/
+E:\Git\test [master]>
+E:\Git\test [master]> git push
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+E:\Git\test [master]> git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+E:\Git\test [master]>
+
+https://github.com/elezone/test.git
+https://github.com/elezone/test.git
+
+git config --global url.ssh://git@github.com/.insteadOf https://github.com/
+
+
+the repository  seem to exist 
