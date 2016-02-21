@@ -19,3 +19,5 @@ Administrator@ME7XK69L0FF2OYV MINGW32 ~
 $ git config --global url.ssh://git@github.com/.insteadOf https://github.com/
 
 vim 编辑此文件
+
+测试git diff
