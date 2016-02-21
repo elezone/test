@@ -11,3 +11,5 @@ $ git config url.ssh://git@github.com/.insteadOf https://github.com
 上面的执行会出错。改为
 [url "ssh://git@github.com/elezone/test.git"]
 	insteadOf = https://github.com/elezone/test.git
+	
+改完之后执行正确提交
