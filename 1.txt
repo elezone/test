@@ -27,3 +27,11 @@ git config --global url.ssh://git@github.com/.insteadOf https://github.com/
 the repository  seem to exist 
 
 failed to sync this branch
+
+
+4、使用git bash启动git-shell，在终端下执行ls命令，出现
+C:/Users/Administrator/AppData/Local/GitHub/PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c/usr/bin/ls.exe: error while loading shared libraries: msys-gcc_s-1.dll: cannot open shared object file: No such file or directory
+
+解决：
+方法1：在github上切换回PowerShell模式进行命令执行吧
+方法2：到网上找msys-gcc_s-1.dll文件，但是不一定能找到（我就没找到），于是想到git客户端是有这个共享文件的（github客户端就是git+图形界面），因此到https://git-for-windows.github.io/下载git最新版本，然后安装，在安装目录下找到msys-gcc_s-1.dll拷贝到用户主目录下github/usr/bin下即可。
