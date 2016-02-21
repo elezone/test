@@ -21,3 +21,5 @@ $ git config --global url.ssh://git@github.com/.insteadOf https://github.com/
 vim 编辑此文件
 
 测试git diff
+
+测试git gui的使用
