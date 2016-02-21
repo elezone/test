@@ -13,3 +13,7 @@ $ git config url.ssh://git@github.com/.insteadOf https://github.com
 	insteadOf = https://github.com/elezone/test.git
 	
 改完之后执行正确提交
+
+在全局下执行
+Administrator@ME7XK69L0FF2OYV MINGW32 ~
+$ git config --global url.ssh://git@github.com/.insteadOf https://github.com/
