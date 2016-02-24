@@ -30,3 +30,5 @@ vim 编辑此文件
 
 修改1
 xiugai2
+
+switch to b1, hello b1
